@@ -1,4 +1,4 @@
-# Squid Pivoting Port Scanner
+# Squid Pivoting Port Scanner (Authenticated)
 
 Simple python squid pivot port scanner with authentication (all the others out there don't have auth)
 to test for open ports on computers behind squid proxy.
