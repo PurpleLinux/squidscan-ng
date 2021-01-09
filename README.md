@@ -12,4 +12,4 @@ optional arguments:
   --creds CREDS         Proxy username and password (username:password)
   --proxy PROXY         Define proxy address (xxx:3128)
 
-  ![alt text](https://github.com/[vsamiamv]/[squid_scan]/blob/[master]/example.jpg?raw=true)
+  ![alt text](https://github.com/vsamiamv/squid_scan/blob/master/example.jpg?raw=true)
