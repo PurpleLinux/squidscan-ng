@@ -3,7 +3,7 @@ import argparse
 
 def get_arguments():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-t", "--target", dest="target", help="Target by Proxy username and password username:password / Define proxy address xxx:3128")
+    parser.add_argument("-t", "--target", dest="target", help="Target IP Address or Hostname")
     parser.add_argument("--creds", dest="creds", help="Proxy username and password (username:password)")
     parser.add_argument("--proxy", dest="proxy", help="Define proxy address (xxx:3128)")
     options = parser.parse_args()
