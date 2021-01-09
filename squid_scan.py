@@ -11,6 +11,8 @@ def get_arguments():
         parser.error("[-] Please specify a target, use --help for info")
     elif not options.proxy:
         parser.error("[-] Please specify a proxy, use --help for info")
+    elif not options.creds:
+        parser.error("[-] Please specify creds, use --help for info")
     return options
 
 def set_proxy(creds, proxy):
